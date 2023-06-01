@@ -1,0 +1,27 @@
+{
+    "basic_parameters": {
+        "sampling_freq": 1000,
+        "butter_order": 2,
+        "bp_passband": [
+            1.0,
+            250.0
+        ],
+        "lp_cutoff": 1.0,
+        "fft_sample_num": 1024
+    },
+    "custom_parameters": {
+        "offset_EMG": [
+            0.00378768,
+            0.00324894,
+            0.00419124,
+            0.00405966
+        ],
+        "max_EMG": [
+            0.0860999,
+            0.260329,
+            0.121923,
+            0.188236
+        ],
+        "power_threshold": 0.5
+    }
+}
